@@ -774,6 +774,16 @@ exe "hi! perlVarPlain"   . s:fg_yellow .s:bg_back   .s:fmt_none
 exe "hi! perlStatementFileDesc". s:fg_cyan.s:bg_back.s:fmt_none
 
 "}}}
+"" clojure highlighting "{{{
+" ---------------------------------------------------------------------
+exe "hi! clojureKeyword"     .s:fmt_none .s:fg_magenta  .s:bg_none
+exe "hi! clojureParen"       .s:fmt_none .s:fg_base00   .s:bg_none
+exe "hi! clojureDefine"      .s:fmt_none .s:fg_blue     .s:bg_none
+exe "hi! clojureFunc"        .s:fmt_none .s:fg_blue     .s:bg_none
+exe "hi! clojureMacro"       .s:fmt_none .s:fg_blue     .s:bg_none
+exe "hi! clojureSpecial"     .s:fmt_none .s:fg_blue     .s:bg_none
+
+"}}}
 " tex highlighting "{{{
 " ---------------------------------------------------------------------
 exe "hi! texStatement"   . s:fg_cyan   .s:bg_back   .s:fmt_none
