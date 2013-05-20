@@ -784,6 +784,16 @@ exe "hi! clojureMacro"       .s:fmt_none .s:fg_blue     .s:bg_none
 exe "hi! clojureSpecial"     .s:fmt_none .s:fg_blue     .s:bg_none
 
 "}}}
+" todo highlighting "{{{
+" ---------------------------------------------------------------------
+exe "hi! todoMinorHeading"   .s:fmt_bold .s:fg_yellow  .s:bg_none
+exe "hi! todoMediumHeading"  .s:fmt_bold .s:fg_cyan    .s:bg_none
+exe "hi! todoMajorHeading"   .s:fmt_bold .s:fg_red     .s:bg_none
+exe "hi! todoTODO"           .s:fmt_bold .s:fg_magenta .s:bg_none
+exe "hi! todoDONE"           .s:fmt_bold .s:fg_green   .s:bg_none
+
+
+"}}}
 " tex highlighting "{{{
 " ---------------------------------------------------------------------
 exe "hi! texStatement"   . s:fg_cyan   .s:bg_back   .s:fmt_none
